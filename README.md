@@ -43,8 +43,7 @@
 
 ### 3. 視覺化證明 (Visual Evidence)
 
-[請在此處嵌入您的 `actual_vs_predicted_plot.png` 圖片]
-*（若使用 GitHub，請確保圖片已上傳，並使用 `![圖表名稱](output/figures/actual_vs_predicted_plot.png)` 嵌入）*
+![紅酒品質預測結果圖](圖片1.png)
 
 **圖表說明：** 散點圖顯示數據點集中在理想預測線 ($y=x$) 周圍，**垂直離散度低**，證明 $\text{RMSE}=0.6259$ 的結果是視覺上可驗證的。
 
