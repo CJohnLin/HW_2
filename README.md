@@ -23,7 +23,7 @@
 
 * **數據處理：** 數據集無缺失值，所有特徵均通過 `StandardScaler` 進行標準化。
 * **Lasso 選擇結果：** 原始 11 個特徵中，最終選定了 **8** 個與品質高度相關的特徵子集，排除了貢獻度極低的特徵，優化了模型結構。
-* **關鍵選定特徵：** `alcohol`, `volatile acidity`, `sulphates`, `total sulfur dioxide`, `chlorides`, `pH`, `fixed acidity`。
+* **關鍵選定特徵：** `fixed acidity`, `volatile acidity`, `chlorides`, `free sulfur dioxide`, `total sulfur dioxide`, `pH`, `sulphates`, `alcohol`
 
 ### 2. 模型性能與結果 (Modeling & Evaluation)
 
